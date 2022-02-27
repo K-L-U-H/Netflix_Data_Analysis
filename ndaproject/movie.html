@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Netflix Data Analysis</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="movie.html">MOIVES</a></li>
+                    <li><a href="data_analysis.html">DATA ANALYSIS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>            
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Movies</h1>
+    
+</section>
+    
+<!------moive------->
+<section class="moives">
+    <h1>Enjoy on your TV.</h1>
+    <p> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players  
+        and more.</p>
+    <div class="row">
+        <div class="moive-col">
+            <h3>English</h3>
+            <p>Red Notice · Back to the Outback · Midway · Sonic the Hedgehog · Spenser Confidential · Minions · Jumanji: Welcome to the Jungle </p>
+        </div>
+        <div class="moive-col">
+            <h3>Hindi</h3>
+            <p>Red Notice · Back to the Outback · Midway · Sonic the Hedgehog · Spenser Confidential · Minions · Jumanji: Welcome to the Jungle </p>
+        </div>
+        <div class="moive-col">
+            <h3>Telugu</h3>
+            <p>Red Notice · Back to the Outback · Midway · Sonic the Hedgehog · Spenser Confidential · Minions · Jumanji: Welcome to the Jungle </p>
+        </div>
+        <div class="moive-col">
+            <h3>ALL</h3>
+            <p>Red Notice · Back to the Outback · Midway · Sonic the Hedgehog · Spenser Confidential · Minions · Jumanji: Welcome to the Jungle </p>
+        </div>
+    </div>
+    
+</section>    
+    
+ <!-----moives trending---> 
+<section class="about">
+    <h1>Global Networks</h1>
+    <p> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players  
+        and more.</p>
+    <div class="row">
+        <div class="about-col">
+            <img src="images/moive.jpg" >
+            <div class="layer">
+                <h3>BIGBOSS</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/Bheemla.jpg" >
+            <div class="layer">
+                <h3>BHEEMLA NAYAK</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/radheshyam.jpg" >
+            <div class="layer">
+                <h3>RADHE SHYAM</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/rrr.jpg" >
+            <div class="layer">
+                <h3>RRR</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+    
+<!----- footer ----------> 
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Students from KL University</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        
+</section>
+    
+    
+<!-----JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>  
+    
+    
+</body>
+</html>

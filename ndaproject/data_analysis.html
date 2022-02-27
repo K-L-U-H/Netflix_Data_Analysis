@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Netflix Data Analysis</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="movie.html">MOIVES</a></li>
+                    <li><a href="data_analysis.html">DATA ANALYSIS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>            
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Diffrent language analysis</h1>
+    
+</section>
+    
+<!------data analysis content------->
+<section class="data-analysis">
+    <div class="row">
+        <div class="dataana-left">
+            <img src="images/moive1.png">
+            <h2>Diffrent language analysis</h2>
+            <p>something............</p>
+            <br>
+            <p>something more..........</p>
+            
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter your Name">
+                    <input type="email" placeholder="Enter your Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+                
+            </div>
+            
+   
+        </div>
+        <div class="dataana-right">
+            <h3>MOIVES            sssssssss</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+             <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+             <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+             <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+             <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+             <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+             <div>
+                <span>Business Analytics</span>
+                <span>55</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    
+    
+    
+<!----- footer ----------> 
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Students from KL University</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        
+</section>
+    
+    
+<!-----JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>  
+    
+    
+</body>
+</html>
